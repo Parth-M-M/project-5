@@ -1,0 +1,6 @@
+Model,Parameters,Time per Epoch (s),Epochs Trained,Test Accuracy,Precision,Recall,F1,ROC-AUC
+ANN Baseline (Flatten),934529,3.4,5,0.8485,0.8462,0.8531,0.8496,0.9245
+SimpleRNN (64 units),326273,11.2,9,0.8042,0.8016,0.8103,0.8059,0.8768
+LSTM (64 units),344897,18.6,8,0.8864,0.8845,0.8897,0.8871,0.9542
+Stacked LSTM (64→32),357281,29.4,8,0.8889,0.8878,0.8911,0.8894,0.9561
+GRU (64 units),338881,15.1,8,0.8848,0.8831,0.8881,0.8856,0.9531
